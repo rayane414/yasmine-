@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmine - Biography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* ????? ???? */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f4f4f9, #e0e0f5);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            animation: gradientBG 10s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            color: #d63384;
+            font-size: 42px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #5a189a;
+            border-bottom: 3px solid #5a189a;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 28px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        p, ul, blockquote {
+            max-width: 600px;
+            margin: 15px auto;
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: square;
+            padding: 10px 20px;
+            border-left: 5px solid #d63384;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        ul li {
+            transition: transform 0.3s ease;
+        }
+
+        ul li:hover {
+            transform: translateX(10px);
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #5a189a;
+            border-left: 5px solid #d63384;
+            padding: 15px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* ????? ?????? */
+        .section {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ?? ?????? ??? ?????? */
+        .back-to-top {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #5a189a, #d63384);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .back-to-top:hover {
+            transform: scale(1.1);
+        }
+
+        /* ????? ????? ??????? ????????? */
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #5a189a;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #d63384;
+        }
+
+        /* ???? ?????? */
+        .progress-bar {
+            width: 100%;
+            background: #e0e0f5;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 10px;
+            background: #5a189a;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Welcome to Yasmine's Website!</h1>
+    </div>
+
+    <div class="section">
+        <h2>Who is Yasmine?</h2>
+        <p>Yasmine is a 14 years old girl who lives in Algeria. She likes music and movies, and she's gorgeous affff.</p>
+    </div>
+
+    <div class="section">
+        <h2>Things Yasmine Loves to Do:</h2>
+        <ul>
+            <li>Watching movies</li>
+            <li>Baking</li>
+            <li>Reading</li>
+            <li>Writing</li>
+            <li>Socialising</li>
+            <li>Going on diets</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Achievements:</h2>
+        <p>She's 14, how tf you want her to do smth:</p>
+        <ul>
+            <li>SHE GOT 10/10 IN PRIMARY FINAL TEST LET'S GOOOOOOOOOO</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Goals:</h2>
+        <ul>
+            <li>Leave this ugly country</li>
+            <li>Becoming a pathologist</li>
+            <li>Visit every country she wants</li>
+            <li>Buying a guitar</li>
+            <li>Living in an apartment by her own for some while in a place that looks like Paris streets</li>
+            <li>Improve her French and English</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Yasmine's Favorite Things:</h2>
+        <ul>
+            <li>Clothes and jewelries</li>
+            <li>Her hat</li>
+            <li>Her friends</li>
+            <li>Her headphones</li>
+            <li>Music</li>
+            <li>Movies</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Best Memories:</h2>
+        <ul>
+            <li>The time when she was with her online friends</li>
+            <li>The nursery</li>
+            <li>Lina</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Favorite Quotes:</h2>
+        <blockquote>
+            "Bojack said: Life is a bi*h and then you die, right?<br>
+            Diane replies: Sometimes, sometimes life's a bi*h and then you keep living." - Bojack the Horseman
+        </blockquote>
+        <blockquote>
+            "Your love is like the sun, makes my eyes brighter but shows my skin flaws." - Yasmine
+        </blockquote>
+    </div>
+
+    
+
+    <!-- ?? ?????? ??? ?????? -->
+    <a href="#" class="back-to-top">Back to Top</a>
+
+    <!-- ????? ????? ??????? ????????? -->
+    <div class="social-links">
+        <p>Follow Yasmine:</p>
+        <a href="https://www.instagram.com/yasmine.16_8/" target="_blank"><i class="fab fa-instagram"></i></a>
+ 
+    </div>
+
+    <footer>
+        <p>2025 YASMINE'S WEBSITE created by loser</p>
+    </footer>
+</body>
+</html>
